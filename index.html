@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Kami</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0 20px;
+      background-color: #fff8e1;
+      font-family: 'Open Sans', sans-serif;
+      color: #4a4a4a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+      animation: fadeInBg 1s ease forwards;
+    }
+
+    @keyframes fadeInBg {
+      from { background-color: #fff; }
+      to { background-color: #fff8e1; }
+    }
+
+    .container {
+      max-width: 600px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 3rem;
+      color: #f9a825;
+      margin-bottom: 10px;
+      animation: slideDown 1s ease forwards;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 12px 0;
+      animation: fadeInText 1.5s ease forwards;
+    }
+
+    @keyframes fadeInText {
+      from { opacity: 0;}
+      to { opacity: 1;}
+    }
+
+    .lineart {
+      margin: 30px 0;
+      max-width: 100%;
+      animation: fadeInImage 2s ease forwards;
+    }
+
+    @keyframes fadeInImage {
+      from { opacity: 0; transform: scale(0.9);}
+      to { opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>It's a Match 💛</h1>
+    <p>Kadang, hal besar datang dari yang gak kita duga.<br>
+      Siapa sangka, satu notifikasi bisa membuka jalan untuk banyak cerita.<br>
+      Dari sekadar swipe kanan, jadi obrolan panjang —<br>
+      dan dari sana… kejutan-kejutan kecil mulai datang.</p>
+
+    <!-- Ganti link src berikut dengan PNG line art kamu -->
+    <img class="lineart" src="https://i.imgur.com/0rTrQXM.png" alt="Line art placeholder" />
+
+    <p>Sejak hari itu, kami gak langsung tahu kami akan sampai sejauh ini.<br>
+      Tapi kami terus bertumbuh, saling belajar, saling menemukan —<br>
+      dalam hal besar, dan hal kecil.<br>
+      Dan dengan keyakinan tulus, kami memutuskan untuk terus memilih satu sama lain,<br>
+      bertumbuh dan berproses sebagai satu.</p>
+
+    <p><strong>Undangan:</strong><br>
+      Tanggal: 25 Desember 2025<br>
+      Tempat: Gereja Santo Maria, Jakarta</p>
+  </div>
+</body>
+</html>
